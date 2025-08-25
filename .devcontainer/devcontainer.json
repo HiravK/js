@@ -1,0 +1,14 @@
+{
+  "name": "JavaScript Development Container",
+  "dockerFile": "Dockerfile",
+  "extensions": [
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "editor.formatOnSave": true
+  },
+  "postCreateCommand": "npm install",
+  "remoteUser": "node"
+}
