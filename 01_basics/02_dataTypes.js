@@ -23,5 +23,5 @@ let state;
 console.log(typeof "Henry"); //string
 console.log(typeof 18); //number
 console.log(typeof 9007199254741991n); //bigint
-console.log((typeof undefined); // undefined)
+console.log(typeof undefined); // undefined
 console.log(typeof null); //object
